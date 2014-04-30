@@ -1,0 +1,23 @@
+{
+  "name": "css-refactor",
+  "version": "0.0.0",
+  "description": "TODO: Write a longer description.",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-coffeelint": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-karma": "*"
+  },
+  "dependencies": {
+    "jsdom": "*",
+    "css-parse": "*",
+    "css-stringify": "*",
+    "specificity": "*"
+  },
+  "bin": {
+    "css-refactor": "bin/css-refactor"
+  }
+}
